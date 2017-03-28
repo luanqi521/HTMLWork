@@ -1,0 +1,208 @@
+body,.container
+{
+ margin:0;
+ background-color:#cccccc;
+}
+/*导航栏*/
+.top
+{
+	background-color:#333333;
+	height:100px;
+}
+nav>ul
+{
+	float:right;
+	margin:40px;
+}
+nav>img
+{
+	margin:20px;
+}
+.link
+{
+	float:left;
+	width:150px;
+}
+nav > ul >li >a:link,nav > ul > li > a:visited
+{
+    color: #FFFFFF;
+    text-decoration:none;
+}
+nav > ul >li >a:hover,nav > ul > li > a:active
+{
+    color: #888888;
+    text-decoration:none;
+}
+.active:visited,.active:link,.active:hover,.active:active
+{
+    color: #888888;
+    text-decoration:none;
+}
+
+/*正文*/
+
+.first,.second,.third,.fourth,.fifth {
+    margin: 1.5em;
+    padding: 1.5em;
+    background-color: #EEEEEE;
+    border-right-style: outset;
+    border-bottom-style: outset;
+}
+
+.first p,.second p
+{
+	text-indent:2em;
+}
+
+h3,h4{
+    color: #666666;
+}
+
+h4{
+    font-size: 80%;
+}
+
+.second ul
+{
+	list-style-type:none;
+}
+.pic
+{
+	border:#CCCCCC solid thin;
+	width:12em;
+	position:relative;
+	left:0.5em;
+	margin:0.5em;
+	float:left;
+}
+
+.third
+{
+	overflow:hidden;
+}
+.pic p
+{
+	text-align:center;
+}
+.pic img
+{
+	width:10em;
+	margin-bottom:1em;
+	margin-right:1em;
+	margin-left:1em;
+}
+
+.tab,.tab thead tr th,.tab tbody tr td
+{
+	border-collapse:collapse;
+	border:1px solid #cccbcb;
+	padding:0.5em;
+}
+.tab
+{
+	width:100%;
+}
+.tab tr th
+{
+	background-color:rgba(0,0,0,0.8);
+	color:#e2e2e2;
+	text-align:left;
+}
+.tab tfoot td
+{
+	background-color:#bebebe;
+	font-weight:bold;
+	padding:0.5em;
+}
+
+
+.fifth h2
+{
+	border-left:0.15em #b8b8b8 solid;
+	padding:0.5em;
+}
+
+.fifth label
+{
+	float:left;
+	width:8em;
+	padding-right:1em;
+	margin-left:2em;
+	text-align:right;
+}
+.fifth input
+{
+	padding:0.3em;
+	border:1px #b8b8b8 solid;
+}
+
+.fifth p
+{
+	margin-left:11em;
+	text-align:left;
+	color:#b8b8b8;
+}
+.fifth div
+{
+	margin:1em;
+}
+.fifth textarea
+{
+	width:26em;
+	height:7em;
+	font-size:large;
+	font-weight:bold;
+	color:black;
+}
+
+.button
+{
+	background-color:#3247ff;
+	border:none;
+	color:white;
+	padding:15px 32px;
+	text-align:center;
+	text-decoration:none;
+	display:inline-block;
+	font-size:16px;
+	margin:4px 2px;
+	cursor:pointer;
+	border-radius:10px;
+	width:100%;
+}
+
+.container
+{
+	height:100%;
+	position:relative;
+}
+
+.main
+{
+	margin-right:715px;
+}
+
+.fifth
+{
+	width:640px;
+	position:absolute;
+	right:0;
+	top:0;
+	margin-top:0;
+}
+
+.bottom
+{
+	height:6em;
+	background-color:black;
+	text-align:center;
+	vertical-align:middle;
+}
+
+.bottom p
+{
+	main:auto;
+	width:10em;
+	color:white;
+	padding:2em;
+}
