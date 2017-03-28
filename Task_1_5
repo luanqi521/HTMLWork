@@ -1,257 +1,267 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
-    <title>Task 1_5_1 html</title>
-    <style type="text/css">
-
-        .firstP
-        {
-        	text-indent:2em;
-        }
-        #Totalbody #headbody
-        {
-        	background-color:Black;
-        	
-        }
-        #Totalbody #leftbody
-        {
-        	float:left;
-        	margin:5px;
-        	position:relative;
-        	top:10px;
-        }
-        #Totalbody #rightbody
-        {
-        	float:right;
-        	position:relative;
-        	top:10px;
-        	margin:5px;
-
-        }
-        #left1,#left2,#left3,#left4
-        {
-        	position:relative;
-        	top:3px;
-        	border:1px solid gray;
-        	margin:5px;
-        }
-
-        .imageDiv p1,.imageDiv p6
-        {
-        	border:1px solid back;
-        	position:relative;
-            float:left;
-        }
-         .imageDiv p5,.imageDiv p10
-        {
-        	border:1px solid back;
-        	position:relative;
-            float:right;
-        }
-        
-        #trlast
-        {
-        	background-color:Gray;
-        }
-        #trHead
-        {
-        	background-color:Black;
-        }
-    </style>
+<meta charset="utf-8">
+<title>测试网页Task_5_HTML</title>
+<link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
-<div id="Totalbody">
 
-<div id="headbody">
-<img src="../image/Logo.jpg"/>
-<a>导航链接一</a>
-<a>导航链接二</a>
-<a>导航链接三</a>
-<a>导航链接四</a>
-</div>
+<nav class="top">
 
-
-<div id="leftbody">
-
-<div id="left1">
-<h1>文章一级标题</h1>
-<h2>文章二级标题</h2>
-<h6>文章作者&nbsp;&nbsp;文章发表时间</h6>
-<p class="firstP">这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，
-这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了</p>
-<br />
-<p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，
-这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了</p>
-<br />
-<p>这是一个很长很长的段落，这是一个很长很长的段落，<a href="这里有一个链接链接到http://ife.baidu.com"></a>
-这是一个很长很长的段落，这是一个很长很长的段落,<b>这里有个粗体字</b>这是一个很长很长的段落，这是一个很长很长的段落，
-这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>
-<img src="../image/task_1_2_1.jpg"/>
-<p class="firstP">这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，
-这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了</p>
-<br />
-<p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，
-<b>这里有个粗体字</b>这是一个很长很长的段落，这是一个很长很长的段落，
-<a href="这里有一个链接点击后打开新窗口链接到http://ife.baidu.com"></a>
-这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，
-这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>
-</div>
-
-<div id="left2">
- <h1>另一篇文章一级标题</h1>
- <h2>文章二级标题</h2>
- <h6>文章作者&nbsp;&nbsp;文章发表时间</h6>
- <p class="firstP">这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，
-这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了</p>
-<br />
-<p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，
-这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了</p>
-<br />
-<p>这是一个很长很长的段落，这是一个很长很长的段落，<a href="这里有一个链接链接到http://ife.baidu.com"></a>
-这是一个很长很长的段落，这是一个很长很长的段落,<b>这里有个粗体字</b>这是一个很长很长的段落，这是一个很长很长的段落，
-这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>
-<img src="../image/task_1_2_1.jpg"/>
+<img src="J:\Task_1_2_1\Logo.jpg" height="60" >
 <ul>
-<li>列表项目一</li>
-<li>列表项目二</li>
-<li>列表项目三</li>
+ <li class="link">
+   <a href="#">导航链接一</a>
+ </li>
+ <li class="link">
+   <a href="#">导航链接二</a>
+ </li>
+ <li class="link">
+   <a href="#">导航链接三</a>
+ </li>
+ <li class="link">
+   <a href="#" class="active">导航链接四</a>
+ </li>
+</ul>
+
+</nav>
+
+<div class="container">
+<div class="main">
+<div class="first">
+
+<h2>文章一级标题</h2>
+
+<h3>文章二级标题</h3>
+
+<h4>文章作者 文章发表时间</h4>
+
+<p>
+    这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，
+    这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，
+    <br />
+    换行了
+    <br />
+    这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，
+    这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，
+    这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，
+    这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，
+    这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，
+    这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，
+    <a href="http://ife.baidu.com">这里有一个链接链接到http://ife.baidu.com</a>
+    这是一个很长的段落，这是一个很长的段落，<b>这里有个粗体字</b>
+    这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，
+    这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，
+</p>
+
+<img src="J:\Task_1_2_1/task_1_2_1.jpg" />
+
+<p>
+    这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，
+    这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，
+    <br />
+    换行了
+    <br />
+    这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，
+    这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，
+    这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，
+    这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，
+    这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，
+    这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，
+    <a href="http://ife.baidu.com" target="_blank">这里有一个链接点击后打开新窗口链接到http://ife.baidu.com</a>
+    这是一个很长的段落，这是一个很长的段落，<b>这里有个粗体字</b>
+    这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，
+    这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，
+</p>
+</div>
+<div class="second">
+<h2>另一篇文章一级标题</h2>
+
+<h3>文章二级标题</h3>
+
+<h4>文章作者 文章发表时间</h4>
+
+<p>
+    这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，
+    这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，
+    <br />
+    换行了
+    <br />
+    这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，
+    这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，
+    这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，
+    这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，
+    这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，
+    这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，
+    <a href="http://ife.baidu.com">这里有一个链接链接到http://ife.baidu.com</a>
+    这是一个很长的段落，这是一个很长的段落，<b>这里有个粗体字</b>
+    这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，
+    这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，
+</p>
+
+<img src="J:\Task_1_2_1/task_1_2_1.jpg" />
+
+<ul>
+    <li>列表项目一</li>
+    <li>列表项目二</li>
+    <li>列表项目三</li>
 </ul>
 </div>
+<div class="third">
+ <h2>图片</h2>
+    <div class="pic" id="pic_first">
+        <p>好看的图片</p>
+        <img src="J:\Task_1_2_1/GoodImage.jpg" />
+    </div>
+    <div class="pic">
+        <p>好看的图片</p>
+        <img src="J:\Task_1_2_1/GoodImage.jpg" />
+    </div>
+    <div class="pic">
+        <p>好看的图片</p>
+        <img src="J:\Task_1_2_1/GoodImage.jpg" />
+    </div>
+    <div class="pic">
+        <p>好看的图片</p>
+        <img src="J:\Task_1_2_1/GoodImage.jpg" />
+    </div>
+    <div class="pic">
+        <p>好看的图片</p>
+        <img src="J:\Task_1_2_1/GoodImage.jpg" />
+    </div>
+    <div class="pic">
+        <p>好看的图片</p>
+        <img src="J:\Task_1_2_1/GoodImage.jpg" />
+    </div>
+    <div class="pic">
+        <p>好看的图片</p>
+        <img src="J:\Task_1_2_1/GoodImage.jpg" />
+    </div>
+    <div class="pic">
+        <p>好看的图片</p>
+        <img src="J:\Task_1_2_1/GoodImage.jpg" />
+    </div>
+    <div class="pic">
+        <p>好看的图片</p>
+        <img src="J:\Task_1_2_1/GoodImage.jpg" />
+    </div>
+    <div class="pic"  id="pic_last">
+        <p>好看的图片</p>
+        <img src="J:\Task_1_2_1/GoodImage.jpg" />
+    </div>
+</div>
+<div class="fourth">
+<h2>最后一篇文章一级标题</h2>
 
-<div id="left3">
-<p>图片</p>
+<h3>文章二级标题</h3>
 
-<div  id="left3Top">
-<div class="imageDiv p1">
-&nbsp;<img src="../image/GoodImage.jpg"/>
-<img src="../image/GoodImage.jpg"/><img src="../image/GoodImage.jpg"/><img src="../image/GoodImage.jpg"/><img src="../image/GoodImage.jpg"/></div>
-<div class="imageDiv p2">
-&nbsp;</div>
-<div class="imageDiv p3">
-&nbsp;</div>
-    <div class="imageDiv p5">
-&nbsp;
-</div>
-</div>
+<p>文章作者 文章发表时间</p>
 
-<div id="left3Bott">
-<div class="imageDiv p6">
-&nbsp;<img src="../image/GoodImage.jpg"/>
-<img src="../image/GoodImage.jpg"/><img src="../image/GoodImage.jpg"/><img src="../image/GoodImage.jpg"/><img src="../image/GoodImage.jpg"/></div>
-<div class="imageDiv p7">
-&nbsp;
-</div>
-<div class="imageDiv p8">
-&nbsp;
-</div>
-<div class="imageDiv p9">
-&nbsp;
-</div>
-<div class="imageDiv p10">
-&nbsp;
-</div>
-</div>
-</div>
-
-<div id="left4">
-<h1>最后一篇文章一级标题</h1>
-<h2>文章二级标题</h2>
-<h6>文章作者&nbsp;&nbsp;文章发表时间</h6>
 <ol>
-<li>排名1</li>
-<li>排名2</li>
-<li>排名3</li>
+    <li>排名1</li>
+    <li>排名2</li>
+    <li>排名3</li>
 </ol>
-<p>下面是一个表格</p>
-<table>
-<thead id="trHead">
-<tr>
-<th>表头</th>
-<th>表头</th>
-<th>表头</th>
-</tr>
-</thead>
-<tr class="trTable">
-<td>表内容单元格</td>
-<td>表内容单元格</td>
-<td><a>操作</a></td>
-</tr>
-<tr class="trTable">
-<td>表内容单元格</td>
-<td>表内容单元格</td>
-<td><a>操作</a></td>
-</tr>
-<tr class="trTable">
-<td>表内容单元格</td>
-<td>表内容单元格</td>
-<td><a>操作</a></td>
-</tr>
 
-<tr class="trTable">
-<td>表内容单元格</td>
-<td>表内容单元格</td>
-<td><a>操作</a></td>
-</tr>
+<p>下面是一个表格，给表格加了一个border="1"好让你看出是一个表格</p>
 
-<tr id="trlast">
-<td>总计</td>
-<td>1000</td>
-</tr>
+<table class="tab">
+    <thead>
+    <tr>
+        <th>表头</th>
+        <th>表头</th>
+        <th>表头</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>表内容单元格</td>
+        <td>表内容单元格</td>
+        <td><a href="#">操作</a></td>
+    </tr>
+    <tr>
+        <td>表内容单元格</td>
+        <td>表内容单元格</td>
+        <td><a href="#">操作</a></td>
+    </tr>
+    <tr>
+        <td>表内容单元格</td>
+        <td>表内容单元格</td>
+        <td><a href="#">操作</a></td>
+    </tr>
+    <tr>
+        <td>表内容单元格</td>
+        <td>表内容单元格</td>
+        <td><a href="#">操作</a></td>
+    </tr>
+    </tbody>
+    <tfoot>
+    <tr>
+        <td>总计</td>
+        <td colspan="2">1000</td>
+    </tr>
+    </tfoot>
 </table>
 </div>
+<div class="fifth">
+    <h2>这里以后是一个侧栏，这是侧栏的标题</h2>
 
-</div>
+<form action="#">
+    <div>
+    <label>请输入邮箱地址</label>
+    <input type="text" placeholder="这是一个文本输入框" name="email" id="email">
+    <p>邮箱地址请按要求格式输入</p>
+    </div>
 
-<div id="rightbody">
-<h1>这里以后是一个侧栏，这是侧栏的标题</h1>、
-<form>
-<span id="EmailInput">
-<label>请输入邮箱地址</label>
-<input type="text" value="这是一个文本输入框"/>
-<label>邮箱地址请按要求格式输入</label>
-</span>
-<br />
-<span>
-<label>请输入密码</label>
-<input type="password"/>
-</span>
-<br />
-<span>
-<label>请重复输入密码</label>
-<input type="password"/>
-<label>密码为6-16位英文数字</label>
-</span>
-<br />
-<span>
-<label>性别</label>
-<input type="radio" value="男" checked="checked" /><label>男</label>
-<input type="radio" value="女" /><label>女</label>
-</span>
-<br />
-<span>
-<label>城市</label>
-<select>
-<option selected="selected">北京</option>
-<option>上海</option>
-<option>广州</option>
-<option>深圳</option>
-<option>云南</option>
-</select>
-</span>
-<br />
-<span>
-<label>爱好</label>
-<input type="checkbox"/><label>运动</label>
-<input type="checkbox"/><label>艺术</label>
-<input type="checkbox"/><label>科学</label>
-</span>
-<br />
-<span>
-<label>个人描述</label>
-<input type="text"/>
-</span>
+    <div>
+    <label>请输入密码</label>
+    <input type="password" placeholder="这是一个文本输入框" name="pwd1" id="pwd1">
+    </div>
+
+    <div>
+    <label>请重复输入密码</label>
+    <input type="password" placeholder="这是一个文本输入框" name="pwd2" id="pwd2">
+    <p>密码请为6-16位英文数字</p>
+    </div>
+
+    <div>
+    <label>性别</label>
+    <input type="radio" name="sex" value="man" checked>男
+    <input type="radio" name="sex" value="woman">女
+    </div>
+
+    <div>
+    <label>城市</label>
+    <select>
+        <option selected>北京</option>
+        <option>上海</option>
+    </select>
+    </div>
+
+    <div>
+    <label>爱好</label>
+    <input type="checkbox" name="hobby" value="sports">运动
+    <input type="checkbox" name="hobby" value="arts">艺术
+    <input type="checkbox" name="hobby" value="science">科学
+    </div>
+
+    <div>
+    <label>个人描述</label>
+    <textarea name="sub">这是一个多行输入框，输入您的个人描述</textarea>
+    </div>
+
+    <button type="submit" class="button">确认提交</button>
+
 </form>
 </div>
 </div>
+</div>
+
+<nav class="bottom">
+<p>版权所有&copy;</p>
+</nav>
 </body>
 </html>
+
+
